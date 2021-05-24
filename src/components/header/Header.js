@@ -40,7 +40,7 @@ export const Header = () => {
                         <Link href={'https://docs.google.com/document/d/e/2PACX-1vTUu7GY24T7l-Iy713yHCjLLvB0mOUbUYVcjNUNFzEbblJvLvR1pXsWBmTlcPnZdnXOhJGJ0Bz8qCbQ/pub'} target={'_blank'} className={classes.links}>Resume</Link>
                         <Link href={'https://www.github.com/robertddobyns'} target={'_blank'} className={classes.links}>Git Hub</Link>
                         <Link href={'https://www.codefornebraska.org'} target={'_blank'} className={classes.links} style={{color: 'red'}}>Code For Nebraska</Link>
-                        <Link href={'/tutorials'} className={classes.links}>Tutorials</Link>
+                        <Link href={'/#/tutorials'} className={classes.links}>Tutorials</Link>
                         <Link href={'#'} className={classes.links}>3D Models</Link>
                         <Link href={'#'} className={classes.links}>Dad Jokes</Link>
                     </div>
