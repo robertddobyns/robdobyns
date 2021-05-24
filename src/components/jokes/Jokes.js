@@ -60,7 +60,7 @@ export const Jokes = () => {
                 list. Please use them all. Claim them as your own. Be the office comedian.
             </Typography>
             <div className={classes.jokeContainer}>
-                <Button variant={'contained'} color={'primary'} onClick={getJoke}>Generate Me A Good Joke</Button>
+                <Button variant={'contained'} color={'primary'} onClick={getJoke}>{!!joke ? 'That was terrible. Again!' :`Generate Me A Good Joke`}</Button>
                 {!!joke ? <div className={classes.joke}>{joke}</div>: ''}
                 {!!joke ? <Button variant={'contained'} color={'secondary'} onClick={copyToClipboard} className={classes.copyButton}>Copy to Clipboard</Button>: ''}
             </div>
