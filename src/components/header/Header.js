@@ -41,8 +41,8 @@ export const Header = () => {
                         <Link href={'https://www.github.com/robertddobyns'} target={'_blank'} className={classes.links}>Git Hub</Link>
                         <Link href={'https://www.codefornebraska.org'} target={'_blank'} className={classes.links} style={{color: 'red'}}>Code For Nebraska</Link>
                         <Link href={'/#/tutorials'} className={classes.links}>Tutorials</Link>
-                        <Link href={'#'} className={classes.links}>3D Models</Link>
-                        <Link href={'#'} className={classes.links}>Dad Jokes</Link>
+                        <Link href={'/#/models'} className={classes.links}>3D Models</Link>
+                        <Link href={'/#/jokes'} className={classes.links}>Dad Jokes</Link>
                     </div>
                 </Toolbar>
             </AppBar>
