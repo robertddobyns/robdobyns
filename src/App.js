@@ -7,6 +7,7 @@ import {Header} from "./components/header/Header";
 import {Home} from "./components/home/Home";
 import {TutorialsMain} from "./components/tutorials/Tutorials-main";
 import {ThreeDMain} from "./components/threeD/ThreeD-main";
+import {Jokes} from "./components/jokes/Jokes";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
           <Route path={'/models'}>
             <ThreeDMain/>
           </Route>
-          <Route path={'/tutorials'}>
-            <TutorialsMain/>
+          <Route path={'/jokes'}>
+            <Jokes/>
           </Route>
           <Route path={"/"}>
             <Home/>
