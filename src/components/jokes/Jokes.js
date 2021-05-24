@@ -8,8 +8,9 @@ const jokeArray = [
 
 const useStyles = makeStyles(theme => ({
     root: {
-        width: 900,
-        margin: '0 auto'
+        maxWidth: 900,
+        margin: '0 auto',
+        padding: '0 20px'
     },
     title: {
         textAlign: 'center',
