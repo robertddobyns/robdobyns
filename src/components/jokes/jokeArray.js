@@ -1,5 +1,34 @@
 export const jokeArray =
 [
-  "I farted into my wallet. Now I have gas money.",
-  "German sausage jokes are the wurst."
-]
+    "I farted into my wallet. Now I have gas money.",
+    "German sausage jokes are the wurst.",
+    "My wife said that I should do lunges to stay in shape. I told that that would be a huge step forward.",
+    "I was singing in the shower & got soap in my mouth. Then it was a soap opera.",
+    "How do you track Will Smith in the snow? You follow the fresh prints",
+    "April showers bring may flowers. May flowers bring pilgrims",
+    "Seagulls flow over the sea. Bagels fly over the bay.",
+    "I only know 25 letters. I don't know y",
+    "How does the moon cut it's hair? Eclipse it.",
+    "If you're cold, stand in the corner. It's always 90 degrees",
+    "I asked my dog what 2 minus 2 was. He said nothing.",
+    "I don't know what the best thing about Switzerland is, but their flag is a big plus",
+    "I learned to make a banana split at Sundae School",
+    "Where do ships go when they get sick? The dock",
+    "I don't trust trees. They seem kind of shady",
+    "My wife said that I don't have a sense of direction. I got so mad I up and right the house.",
+    "I have a bunch of egg jokes that will crack you up.",
+    "I don't trust stairs. They're always up to something",
+    "What do you call someone with no body and no nose? Nobody knows.",
+    "I heard a rumor about butter but I didn't want to spread it.",
+    "The bicycle couldn't stand up because it was too tired",
+    "I got fired from the banana factory for throwing away all the bent ones.",
+    "If a nose is 12 inches long, it would be a foot.",
+    "The graveyard is popular. People are dying to get in.",
+    "I called a lemon on the phone. He said, 'Yellow!'",
+    "Eggs like to drive a Yolkswagon",
+    "My wife asked me to put the cat out. I didn't even know it was on fire.",
+    "I had a taco for dinner. It insisted I say grace first. 'Lettuce pray'",
+    "I have a dentist appointment at tooth hurty.",
+    "Skeletons are cowards. They have no guts.",
+    "How many tickles does it take to make an octopus laugh? Ten tickles"
+];
