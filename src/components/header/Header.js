@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {makeStyles, Toolbar, AppBar, IconButton, Typography, Link} from "@material-ui/core";
 import {Menu} from "@material-ui/icons";
 
@@ -19,12 +19,23 @@ const useStyles = makeStyles((theme) => ({
     links: {
         color: 'white',
         paddingLeft: '20px'
+    },
+    list: {
+        width: 250
+    },
+    fullList: {
+        width: 'auto'
     }
 }));
 
 export const Header = () => {
 
     const classes = useStyles();
+    const [state, setState] = useState(false);
+
+    const toggleDrawer = (anchor, open) => {
+
+    }
 
     return (
         <div className={classes.root}>
